@@ -410,11 +410,40 @@ section {
   text-transform: uppercase;
 }
 
-.home .slide .content p {
+.home .slide .content p  {
   font-size: 1.4rem;
   color: var(--light-color);
   line-height: 2;
   padding: 1rem 0;
+}
+
+.content p b {
+  color: var(--yellow);
+}
+
+.contact_info h3 {
+    color: white;
+    font-size: large;
+}
+
+.contact_info_inner {
+  color: white;
+  font-size: medium;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+.contact_info_inner b {
+  color: var(--yellow);
+}
+
+.content-list {
+  font-size: 1.4rem;
+  color: var(--light-color);
+  line-height: 2;
+  padding: 1rem 0;
+  padding-left: 50px;
 }
 
 .home .swiper-button-next,
